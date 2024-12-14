@@ -4,6 +4,14 @@ from Agents import *
 from Tasks import * 
 import os
 
+# Menambahkan logo
+st.set_page_config(page_title="SMK MADINATUL QURAN", page_icon="logo/logo_MQ.png", layout="wide")
+
+# Logo di sidebar
+st.sidebar.image("logo/Robot.png", width=300) 
+st.image("logo/logo_MQ.png", width=120) 
+
+# jangan di ganggu
 st.title("MQ.AI")
 sekolah = st.text_input("Sekolah Asal?")
 pertanyaan = st.text_input("Silahkan masukan pertanyaan anda!")
