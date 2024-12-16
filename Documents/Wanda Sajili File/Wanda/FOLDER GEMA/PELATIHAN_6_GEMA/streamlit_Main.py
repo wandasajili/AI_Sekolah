@@ -5,7 +5,7 @@ from Tasks import *
 import os
 
 # Menambahkan logo
-st.set_page_config(page_title="SMK MADINATUL QURAN", page_icon="logo/logo_MQ.png", layout="wide")
+st.set_page_config(page_title="SMK MADINATUL QUR'AN", page_icon="logo/logo_MQ.png", layout="wide")
 
 # Logo di sidebar
 st.sidebar.image("logo/Robot.png", width=300) 
